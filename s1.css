@@ -3,7 +3,7 @@
   text-align: center;
 }
 /* warning */
-/* @supports (animation-timeline: scroll()) {
+ @supports (animation-timeline: scroll()) {
   .warning {
     display: none;
   }
@@ -26,7 +26,7 @@
 .warning--alarm {
   border: 1px solid red;
   background: #ff000010;
-} */
+} 
 15:32
 /* here is everything related to scroll animations */
 @keyframes grow-progress {
