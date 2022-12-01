@@ -2,6 +2,56 @@
   transition: all 0.3s ease;
   text-align: center;
 }
+/* warning */
+/* @supports (animation-timeline: scroll()) {
+  .warning {
+    display: none;
+  }
+}
+.warning {
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px solid #ccc;
+  background: rgba(255 255 205 / 0.8);
+}
+.warning > :first-child {
+  margin-top: 0;
+}
+.warning > :last-child {
+  margin-bottom: 0;
+}
+.warning a {
+  color: blue;
+}
+.warning--alarm {
+  border: 1px solid red;
+  background: #ff000010;
+} */
+15:32
+/* here is everything related to scroll animations */
+@keyframes grow-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+#progress {
+  animation: grow-progress 1s linear forwards;
+  animation-timeline: scroll(block root);
+}
+#progress {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 1vh;
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  background: #DAA520;
+}
 a {
   text-decoration: none;
   color: #fff;
