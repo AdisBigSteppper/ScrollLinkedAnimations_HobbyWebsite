@@ -2,6 +2,28 @@
   transition: all 0.3s ease;
   text-align: center;
 }
+a {
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  background-color: black;
+  color: #fff;
+  overflow-x: hidden;
+}
+/* hide scrollbar */
+body::-webkit-scrollbar {
+  display: none;
+}
+.menu {
+  position: fixed;
+  z-index: 1001;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  right: 0px;
+  top: calc(50% - 150px);
+}
 /* warning */
  @supports (animation-timeline: scroll()) {
   .warning {
@@ -51,29 +73,6 @@
   transform: scaleX(0);
   background: #DAA520;
 }
-a {
-  text-decoration: none;
-  color: #fff;
-}
-body {
-  background-color: black;
-  color: #fff;
-  overflow-x: hidden;
-}
-/* hide scrollbar */
-body::-webkit-scrollbar {
-  display: none;
-}
-.menu {
-  position: fixed;
-  z-index: 1001;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  right: 0px;
-  top: calc(50% - 150px);
-}
-
 /* .gldn_light {
   position: absolute;
   top: 2px;
