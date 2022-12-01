@@ -1,0 +1,722 @@
+* {
+  transition: all 0.3s ease;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  background-color: black;
+  color: #fff;
+  overflow-x: hidden;
+}
+/* hide scrollbar */
+body::-webkit-scrollbar {
+  display: none;
+}
+.menu {
+  position: fixed;
+  z-index: 1001;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  right: 0px;
+  top: calc(50% - 150px);
+}
+
+/* .gldn_light {
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  width: 85px;
+  height: 50px;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  background-color: goldenrod;
+  opacity: 1;
+} */
+/*                                                                                    */
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 940px;
+  min-width: 1px;
+}
+.purpleGradient h1 {
+  background: linear-gradient(to right, #daa520, rgb(69, 214, 202));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.X {
+  -webkit-text-fill-color: white;
+}
+.canelo_img1 {
+  background-image: url("https://www.thesun.co.uk/wp-content/uploads/2021/05/NINTCHDBPICT000652239735-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.canelo_belts:hover .canelo_img1 {
+  transform: scale(1.01);
+  filter: brightness(0.6);
+}
+.canelo_belts:hover .txt {
+  display: inline;
+  position: absolute;
+  font-weight: 900;
+}
+.canelo_belts {
+  position: relative;
+  height: 415px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.txt {
+  color: #ffff;
+  display: none;
+  filter: brightness(1);
+  font-size: larger;
+}
+
+.imgBox1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-image: url("https://greenlightrights.com/wp-content/uploads/2018/08/Muhammad-Ali-the-greatest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 721px;
+  width: 100%;
+  filter: brightness(0.5);
+  position: relative;
+}
+.imgBox1 h1 {
+  font-weight: 900;
+}
+.imgBox1:hover {
+  filter: brightness(1);
+}
+.imgBox1:hover img {
+  display: block;
+}
+.imgBox1 img {
+  position: absolute;
+  display: none;
+  left: 0%;
+  right: 0%;
+}
+.ali_info {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 50px;
+}
+.ali_info:hover .ylw_anim {
+  transition: ease-in-out 0.3s;
+  color: #daa520;
+}
+.ali_info h2::after {
+  content: "";
+  background-color: #daa520;
+  width: 0%;
+  height: 5px;
+  margin: 0 auto;
+  display: block;
+}
+.ali_info:hover h2::after {
+  transition: ease-in-out 1s;
+  width: 68%;
+}
+
+/**/
+
+.imgBox2 {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgBox2_img {
+  background-image: url("http://www.todayifoundout.com/wp-content/uploads/2016/04/boxing-ring.png");
+  background-size: cover;
+  background-position: bottom;
+  filter: brightness(0.3);
+  color: #ffff;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+.imgBox2_txt {
+  position: absolute;
+  bottom: 0%;
+  color: #fff;
+  filter: opacity(0);
+}
+.redMask {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  filter: opacity(0.6);
+}
+.imgBox2:hover .redMask {
+  transition: 0.9s ease-in;
+  height: 0%;
+  filter: opacity(0);
+}
+.imgBox2:hover .imgBox2_txt {
+  transition: 1.2s ease-in-out;
+  bottom: 30%;
+  filter: opacity(1);
+}
+
+.infoCardBox {
+  height: 1000px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.infoCardBox div {
+  height: 500px;
+  filter: brightness(0.5);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.infoCardBox h1 {
+  display: none;
+}
+.infoCardBox div:hover {
+  filter: brightness(1);
+  transform: scale(1.2);
+}
+.infoCardBox div:hover h1 {
+  display: block;
+  font-weight: 900;
+}
+
+.pacman {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/454bb767913371.5b4ad42d6252a.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.mayweather {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/0c211991696267.5e38af4b4d757.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.robinson {
+  background-image: url("https://render.fineartamerica.com/images/rendered/default/print/10.5/14/break/images/artworkimages/medium/2/sugar-ray-robinson-1965-light-middleweight-boxing-september-06-1965-sports-illustrated-cover.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.tyson {
+  background-image: url("https://i.etsystatic.com/36510347/r/il/09350d/4023690354/il_fullxfull.4023690354_qgwe.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.bivol {
+  background-image: url("https://pbs.twimg.com/media/Fg1apObWYAA1Xgf.jpg:large");
+  background-size: cover;
+  background-position: center;
+}
+.infoBox {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  justify-content: space-around;
+  background-size: cover;
+}
+.infoTxt {
+  width: 700px;
+  height: 50%;
+}
+.infoTxt h1 {
+  background: linear-gradient(to right, #5f0a87, #a4508b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.infoImgs {
+  filter: grayscale(1);
+  max-width: 500px;
+  width: 500px;
+  max-height: 600px;
+  height: 600px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.kobe {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/f30264151608379.630f1d647fe0f.jpg");
+}
+.lbj {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/678bcc146990101.62ba8a2f44ec0.png");
+}
+.jordan {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/72a8bf25982049.5634dc487054a.png");
+  background-size: cover;
+  background-position: center;
+}
+.infoBox:hover .infoImgs {
+  animation: 2s ease-in-out infinite;
+  perspective: 10px;
+  filter: grayscale(0);
+  transition: 1.5s;
+  transform: rotateY(180deg);
+}
+.kobeBox2 {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/88e11792392549.5e4a9b4a60810.png");
+  filter: grayscale(1);
+  width: 100%;
+  max-height: 1000px;
+  height: 1000px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.kobeBox2:hover {
+  filter: grayscale(0) brightness(0.8);
+}
+.kobeBox3 {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/1be398151706303.63165adfce512.png");
+  filter: grayscale(1);
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+  margin-bottom: 100px;
+  background-position: center;
+}
+.infoCardBox2 {
+  height: 1000px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.infoCardBox2 div {
+  height: 500px;
+  filter: brightness(0.5);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.infoCardBox2 .flying {
+  transform: translateY(100px);
+}
+.infoCardBox2 div:hover {
+  filter: brightness(1);
+  transform: scale(1.2);
+}
+.kobe_card:hover .flying {
+  filter: brightness(1);
+  transform: scale(2);
+  transform: translate(-15px, -15px);
+}
+.infoCardBox2 div:hover h1 {
+  display: block;
+  font-weight: 900;
+}
+.kobe_card {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/751c22103992357.5f59197cbad73.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+.kobe_card div {
+  background-image: url("https://www.pngfind.com/pngs/b/3-36317_basketball-player-silhouette-png.png");
+  width: 50%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.lebron_card {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c90e2374329327.5c2cb4b147887.png");
+  background-size: cover;
+  background-position: center bottom;
+}
+.lebron_card div {
+  background-image: url("https://www.pngall.com/wp-content/uploads/12/Lebron-James-PNG-Pic.png");
+  width: 50%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.lebron_card:hover .flying {
+  filter: brightness(1);
+  transform: scale(2);
+  transform: translate(25px, 25px);
+}
+.mj_card:hover div {
+  transform: translateY(-25px);
+  filter: brightness(1);
+}
+.mj_card {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/55efb724596941.5db0e70e26c14.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+.mj_card div {
+  background-image: url("https://freepngimg.com/thumb/michael_jordan/29875-2-michael-jordan.png");
+  width: 80%;
+  height: 80%;
+  background-size: cover;
+  background-position: center;
+}
+.mj_card:hover .flying {
+  filter: brightness(1);
+  transform: scale(2);
+  transform: translate(25px, 25px);
+}
+
+/*  */
+
+/*  */
+
+/*  */
+
+.squares {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.square {
+  margin: 0 auto;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.square p {
+  font-weight: 900;
+}
+.square span:nth-child(1) {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate 6s linear infinite;
+}
+.square:hover span:nth-child(1) {
+  border: none;
+  background-color: purple;
+}
+.square span:nth-child(2) {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate2 4s linear infinite;
+  background-color: black;
+}
+.square:hover span:nth-child(2) {
+  border: none;
+  background-color: purple;
+  opacity: 0.5;
+}
+.square span:nth-child(3) {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate 10s linear infinite;
+}
+.square:hover span:nth-child(3) {
+  border: none;
+  background-color: #eca700;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+.canelo,
+.lomachenko,
+.ggg,
+.mamba,
+.mj,
+.lebron {
+  position: absolute;
+  background-image: url("https://media1.giphy.com/media/jQQSsEj1knsHYG5jZR/giphy.gif?cid=4d1e4f293984a3f24140225d53c6a21253cac8eaa9111def&rid=giphy.gif");
+  background-size: cover;
+  background-position: center;
+  width: 85%;
+  height: 85%;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate 10s linear infinite reverse;
+}
+.lomachenko {
+  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/914672103685981010/6C352E7866549D1B7190A471DEA6C1E1BE9B3E72/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+}
+.ggg {
+  background-image: url("https://media2.giphy.com/media/2kYsnqRCyV1uYWxMZL/200w.gif?cid=6c09b952hrr2me38bzjqtjm80j259n3vd2igaegl23ie7t4s&rid=200w.gif&ct=g");
+}
+.mamba {
+  background-image: url("https://media.giphy.com/media/q5hVhkKwKHDuo/giphy.gif");
+}
+.mj {
+  background-image: url("https://media.tenor.com/3vKzCXT4IDYAAAAM/michael-jordan.gif");
+}
+.lebron {
+  background-image: url("https://images2.minutemediacdn.com/image/fetch/c_fill,g_auto,f_auto,h_270,w_480/https%3A%2F%2Ffansided.com%2Fwp-content%2Fblogs.dir%2F229%2Ffiles%2F2013%2F11%2Flebron-james-Dunk.gif");
+}
+.square:hover #canelo1 {
+  border: none;
+  background-color: #ce1127;
+}
+.square:hover #canelo2 {
+  border: none;
+  background-color: white;
+  opacity: 1;
+}
+.square:hover #canelo3 {
+  border: none;
+  background-color: #006847;
+}
+.square:hover #loma1 {
+  border: none;
+  background-color: #005bbb;
+}
+.square:hover #loma2 {
+  border: none;
+  background-color: #005bbb;
+}
+.square:hover #loma3 {
+  border: none;
+  background-color: #ffd500;
+}
+.square:hover #ggg1 {
+  border: none;
+  background-color: #ffe700;
+}
+.square:hover #ggg2 {
+  border: none;
+  background-color: #ffe700;
+}
+.square:hover #ggg3 {
+  border: none;
+  background-color: #01a5c8;
+}
+.square:hover #lbj1 {
+  border: none;
+  background-color: #b4975a;
+}
+.square:hover #lbj2 {
+  border: none;
+  background-color: #72253d;
+}
+.square:hover #lbj3 {
+  border: none;
+  background-color: #72253d;
+}
+.square:hover #jordan1 {
+  border: none;
+  background-color: #cf1141;
+}
+.square:hover #jordan2 {
+  border: none;
+  background-color: #cf1141;
+}
+.square:hover #jordan3 {
+  border: none;
+  background-color: white;
+}
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes animate2 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.content {
+  position: absolute;
+  padding: 40px 60px;
+  transition: 0.5s;
+  z-index: 1000;
+}
+
+/*  */
+/*  */
+footer {
+  margin-top: 400px;
+  position: relative;
+  height: 600px;
+  width: 100%;
+  background-color: #eca700;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .wave {
+  margin-top: 100px;
+  position: absolute;
+  top: -200px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  background: url(./wave.png);
+  background-size: 1000px 100px;
+}
+
+footer .wave#wave1 {
+  z-index: 1000;
+  bottom: 0px;
+  animation: animateWave 4s linear infinite;
+}
+footer .wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animateWave2 4s linear infinite;
+}
+footer .wave#wave3 {
+  z-index: 98;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWave 3s linear infinite;
+}
+footer .wave#wave4 {
+  z-index: 97;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animateWave2 2s linear infinite;
+}
+
+@keyframes animateWave {
+  0% {
+    background-position-x: -1000px;
+  }
+
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+@keyframes animateWave2 {
+  0% {
+    background-position-x: 0px;
+  }
+
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .squares {
+    height: 200%;
+    scale: 0.9;
+    gap: 100px;
+  }
+  .infoCardBox {
+    grid-template-columns: 500px;
+    height: 3000px;
+  }
+  .infoCardBox2 {
+    grid-template-columns: 500px;
+    height: 3000px;
+  }
+  .kobeBox2 {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .squares {
+    scale: 0.75;
+  }
+  .ali_info {
+    background-position: center left;
+  }
+  .infoTxt {
+    height: 0%;
+  }
+  .infoBox {
+    margin-bottom: 0px;
+  }
+  .infoBox {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .kobeBox2 {
+    height: 500px;
+    margin-bottom: 0px;
+  }
+  .infoBox {
+    margin-bottom: 100px;
+  }
+  .menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .squares {
+    scale: 0.6;
+    height: 70%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .infoCardBox {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .infoCardBox2 {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .infoImgs {
+    background-position: center;
+  }
+}
